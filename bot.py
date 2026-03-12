@@ -5,8 +5,8 @@ from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQu
 
 # ========== НАСТРОЙКИ ==========
 # ЗАМЕНИТЕ ЭТИ ДАННЫЕ НА СВОИ!
-BOT_TOKEN = "8123803682:AAFOgF4Ssp95WkxRwQcjfao9qnMnA6pMVQI"  # ПОЛУЧИТЕ В @BotFather
-GROUP_CHAT_ID = -1003663534213  # ID вашей группы (оставьте как есть)
+BOT_TOKEN = "8607427844:AAFloUJdBWJConJPBpPABuUQOXdjo1qRS44"  # ПОЛУЧИТЕ В @BotFather
+GROUP_CHAT_ID = -1003759188641  # ID вашей группы (оставьте как есть)
 ADMIN_IDS = [8444800411]  # Ваш Telegram ID (оставьте как есть)
 MIN_AMOUNT = 50  # Минимальная сумма
 
@@ -318,4 +318,5 @@ def main():
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == '__main__':
+
     main()
